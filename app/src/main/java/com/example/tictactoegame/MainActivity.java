@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             if(gameState[0]!=2 && gameState[1]!=2 && gameState[2]!=2 && gameState[3]!=2 && gameState[4]!=2 && gameState[5]!=2 && gameState[6]!=2 && gameState[7]!=2 && gameState[8]!=2)
             {
                 TextView status=findViewById(R.id.status);
-                status.setText("Tap tp play again...");
+                status.setText("Tap to play again...");
             }
 
 
