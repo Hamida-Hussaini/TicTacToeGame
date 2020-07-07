@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
 
             if(gameState[0]!=2 && gameState[1]!=2 && gameState[2]!=2 && gameState[3]!=2 && gameState[4]!=2 && gameState[5]!=2 && gameState[6]!=2 && gameState[7]!=2 && gameState[8]!=2)
             {
-                gameActive=false;
+                TextView status=findViewById(R.id.status);
+                status.setText("Tab to play again no one win..");
             }
 
 
