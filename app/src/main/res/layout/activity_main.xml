@@ -12,7 +12,7 @@
         android:layout_height="43dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="O's Turn - Tap to play"
+        android:text="@string/ShowTurn"
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:fontFamily="sans-serif"
@@ -41,6 +41,7 @@
         android:layout_height="513dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:contentDescription="@string/GridImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -69,7 +70,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTab"
                 android:padding="20sp"
-                android:tag="0" />
+                android:tag="0"
+                android:contentDescription="TODO" />
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -138,7 +140,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTab"
                 android:padding="20sp"
-                android:tag="6" />
+                android:tag="6"
+                android:contentDescription="TODO" />
 
             <ImageView
                 android:id="@+id/imageView7"
